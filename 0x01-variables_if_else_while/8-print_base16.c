@@ -10,12 +10,17 @@
 
 int main(void)
 {
-	int i;
+	int number;
+	int alpha;
 
-	for (i = 'a' ; i <= 'f' ; i++)
-{
-		putchar(i);
-}
+	for (number = '0' ; number <= '9' ; number++)
+	{
+		putchar(number);
+	}
+	for (alpha = 'a' ; alpha <= 'f' ; i++)
+	{
+		putchar(alpha);
+	}
 	putchar('\n');
 	return (0);
 }
