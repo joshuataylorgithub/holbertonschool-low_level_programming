@@ -14,10 +14,6 @@ int main(void)
 
 	for (letter = 'z'; letter >= 'a'; letter--)
 	{
-		if (letter == 'q' || letter == 'e')
-	{
-		continue;
-	}
 	putchar(letter);
 	}
 	putchar('\n');
