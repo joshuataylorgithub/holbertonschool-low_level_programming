@@ -13,13 +13,13 @@ int main(void)
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
 	{
 		if (letter == 'q' || letter == 'e')
 	{
 		continue;
 	}
-		putchar('\n');
+	putchar(letter);
 	}
-		return (0);
+	putchar('\n');
+	return (0);
 }
