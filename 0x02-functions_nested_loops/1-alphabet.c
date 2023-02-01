@@ -1,22 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * Description: function that prints the alphabet, in lowercase, followed by a new line.
  *
- * Return: Always 0
+ *
+ *
+ * Return: void
  **/
 
-int main(void)
+void print_alphabet(void)
 {
-	char alpha;
+	int alpha;
 
 	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 	{
-	putchar(alpha);
+	_putchar(alpha);
 	}
-	putchar('\n');
-
-	return (0);
+		putchar('\n');
 }
