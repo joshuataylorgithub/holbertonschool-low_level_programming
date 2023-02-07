@@ -3,15 +3,15 @@
 
 /**
  * _isupper - check the code.
- * @c: function that checks if c is 
- * an upper-case letter
+ * @c: function that checks if c is an upper-case letter
  * Return: Always 0.
- */
+ **/
 
 int _isupper(int c)
 
 {
-	if (c >= 'A' && c <= 'z')
+
+	if (c >= '65' && c <= '90')
 	
 	{
 	return (1);
