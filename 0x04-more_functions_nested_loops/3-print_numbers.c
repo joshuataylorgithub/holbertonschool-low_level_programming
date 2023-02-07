@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers 0 through 9 followed by a newline
+ * print_numbers - 0 - 9, newline
  *
  * Return: Always 0
  */
