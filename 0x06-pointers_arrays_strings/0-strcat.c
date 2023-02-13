@@ -4,7 +4,7 @@
 /**
  * _strcat - concatenate two arrays
  *
- * @dest: destination of cocatenation
+ * @dest: destination of concatenation
  * @src: source array to concatenate
  * Description: concatenates (n) number
  * of values from src to end of dest
@@ -14,17 +14,19 @@
 char *_strcat(char *dest, char *src)
 
 {
-	int len1, len2, i;
+	int i;
+	int j;
 
-	len1 = strlen(dest);
-	len2 = strlen(src);
 
-	for (i = 0; i <= len2; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		dest[len1 + 1] = src[i];
+		;
+	}
+	for (j = 0; src[i] != '\0'; i++, j++)
+	dest[i] = src[j];
 	}
 
-	dest[len1 + len2] = '\0';
+	dest[i] = src[j];
 
-	return (0);
+	return (dest);
 }
