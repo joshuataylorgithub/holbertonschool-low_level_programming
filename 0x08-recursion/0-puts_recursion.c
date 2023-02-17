@@ -3,9 +3,9 @@
 /**
  * _puts_recursion - prints
  * a string and a new line
- * 
+ *
  * @s: - string indicated
- * 
+ *
  * Return: string indicated
  */
 
