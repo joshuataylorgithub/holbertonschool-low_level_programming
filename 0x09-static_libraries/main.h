@@ -1,14 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-
-/**
- * Main.h - header file
- * 
- * includes all prototypes
- * for static library
- *
- */
+#include <stdio.h>
+#include <unistd.h>
 
 int _putchar(char c);
 int _islower(int c);
