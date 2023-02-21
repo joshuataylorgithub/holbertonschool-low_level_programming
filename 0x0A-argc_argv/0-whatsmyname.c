@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * int main(int argc, **argv)
+ * main - Entry point main(int argc char **argv)
  *
  * Description: Write a program that
  * prints it's own name
@@ -12,8 +10,13 @@
  * Return: 0
  */
 
-int main(int argc char **argv)
+int main(int argc, char *argv)
+
 {
-	printf("%s\n", argv[0]);
+	int i;
+
+	for (i = 0; i < 1; i++)
+		printf("%s\n", argv[0);
+
 	return (0);
 }
