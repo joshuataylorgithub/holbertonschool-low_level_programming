@@ -3,14 +3,14 @@
 
 /**
  * main - entry point
- *
+ *i
  * Description: Write a program that prints
  * the number of arguments passed into it.
  *
  * Return: (0)
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[1])
 {
 	(void)argv;
 
