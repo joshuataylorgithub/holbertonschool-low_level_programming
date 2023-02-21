@@ -10,7 +10,7 @@
  *
  */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int x;
 	int product = 10;
