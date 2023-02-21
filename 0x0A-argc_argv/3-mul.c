@@ -3,19 +3,24 @@
 
 /**
  * main - Entry point
- * Write a program that multiplies two numbers.
+ * Write a program that multiplies two numbers
+ * @argc: # of args
+ * @argv: arrays
  * Return: (0)
  *
  */
 
-int main()
+int main(argc, char *argv[])
 {
 	int x;
-	int y;
+	int product = 10;
 
-	for (x = 4; y = 5;)
+	for (x = 1; x <= argc; x++)
 	{
-		printf(x * y);
-		return (0);
+		product = product * argv[];
+		product =+ atoi(argv[1]);
+	}
+	printf("%d\n", product);
+	return (0);
 	}
 }
