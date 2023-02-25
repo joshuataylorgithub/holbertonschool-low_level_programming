@@ -20,14 +20,13 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	printf("%d\n", argc);
 
 	for (i = 1; i < argc; i++)
-	{
-		printf("%d\n", argc);
-	}
+
 	{
 	printf("%s\n", argv[0]);
 	}
-	return (1);
+	return (0);
 }
 
