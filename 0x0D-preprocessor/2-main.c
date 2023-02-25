@@ -1,15 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * int main(int argc, char *argv[]) -
+ * main(int argc, char *argv[]) - writes argv[0]
  *
- * Write a program that prints the name
+ * Description: write a program that prints the name
  * of the file it was compiled from,
  * followed by a new line.
  *
- * main - entry point
- *
- * function main: int main(argc, char *argv[])
+ * main - Entry point
  *
  * @argc: number of args
  * @argv: array of args
