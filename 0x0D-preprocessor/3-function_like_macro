@@ -1,14 +1,24 @@
 #include <stdlib.h>
 #include <stdio.h>
-#define ABS(x)  ((-x) = (x))
+#define ABS(X)  ((X<0)?(-X):(X))
+
+/**
+ * ABS(X) - finds absolute value
+ * function main - main funtion
+ * main - Entry point
+ * Return:  (0)
+ */
+
+
 
 int main()
 {
-	int x;
+	int val;
 
-	x = abs(5);
-	{
-		putchar("%d\n", x);
-	}
+	val = -10;
+	cout<<"Absolute value of "<<val<<" is "<<ABS(val)<<endl;
+	val = 10;
+	cout<<"Absolute value of "<<val<<" is "<<ABS(val)<<endl;
+
 	return (0);
 }
