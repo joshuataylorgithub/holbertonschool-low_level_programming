@@ -1,2 +1,2 @@
 #!/bin/bash
-if {$CFILE=main.c then; gcc -S $CFILE -o c} fi
+$CFILE=main.c; gcc -S $CFILE -o c
