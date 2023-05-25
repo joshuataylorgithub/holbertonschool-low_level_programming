@@ -1,2 +1,2 @@
 #!/bin/bash
-clang -E $CFILE -o C
+gcc -S $CFILE -o C
