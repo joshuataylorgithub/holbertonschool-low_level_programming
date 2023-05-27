@@ -13,8 +13,8 @@ int main(void)
 	for (base = 0; base <= 10; base++)
 
 {
-	printf("%d\n", base);
+	printf("%d", base);
 }
-
+	printf("\n");
 	return (0);
 }
