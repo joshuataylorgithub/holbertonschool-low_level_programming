@@ -13,7 +13,7 @@ int main ()
 {
 	putchar('0' + i);
 }
-	for (i = 0; i < 6; i++);
+	for (i = 0; i < 6; i++)
 {	
 	putchar('a' + i);
 }
