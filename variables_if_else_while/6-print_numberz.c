@@ -13,7 +13,7 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 {
 	putchar(ascii_numbers[i]);
-}	
+}
 	putchar('\n');
 
 	return (0);
