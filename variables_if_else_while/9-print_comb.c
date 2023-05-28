@@ -21,6 +21,6 @@ int main(void)
 	putchar('0' + j);
 }
 }
-	putchar('\n');
+
 	return (0);
 }
