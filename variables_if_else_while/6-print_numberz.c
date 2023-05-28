@@ -7,14 +7,16 @@
 
 int main(void)
 {
-	int base = 0;
+	int ascii_numbers[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57};
+	int i;
 
 
-	for (base = 0; base <= 9; base++)
+	for (i = 0; i <= 9; i++)
 
 {
-	printf("%d", base);
+	putchar(ascii_numbers[i]);
+	putchar('\n');
 }
-	printf("\n");
+
 	return (0);
 }
