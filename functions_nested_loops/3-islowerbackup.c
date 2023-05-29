@@ -10,13 +10,15 @@
 int _islower(int c)
 
 {
-	int c = 'a';
+	char c = 'a';
 
 	if (c >= 'a' && c <= 'z')
 {	
-	return 1;
+	putchar("%c is a lowercase letter\n", c);
 }
 	else if (c >= 'A' && c <= 'Z')
-
+{
+	putchar("%c is not a lowercase letter\n", c);
+}
 	return (0);
 }
