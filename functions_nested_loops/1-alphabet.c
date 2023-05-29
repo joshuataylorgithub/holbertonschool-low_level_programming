@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * print_alphabet - prints alphabet
- * @void: returns void 
+ * Description: prints alphabet
  * Return: void (Success)
  */
 
