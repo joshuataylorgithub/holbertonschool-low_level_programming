@@ -15,22 +15,14 @@ int main(void)
 
 	if (_islower(c))
 {	
-	printf("%c is a lowercase letter\n", c);
+	putchar("%c is a lowercase letter\n", c);
 }
-	else
+	else if
 {
-	printf("%c is not a lowercase letter\n", c);
+	putchar("%c is not a lowercase letter\n", c);
 }
 	return (0);
-}
-	int _islower(int c)
-{
-	if (c >= 'a' && c <= 'z')
-{
+
+	else (c >= 'a' && c <= 'z')
 	return 1;
-}
-	else
-{	
-	return 0;
-}
 }
