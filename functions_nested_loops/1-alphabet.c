@@ -1,11 +1,16 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * print_alphabet - prints alphabet
- * Description: prints alphabet
+ *
+ *
  * Return: void (Success)
  */
-
+/**
+ * print_alphabet - prints alphabet followed by a new line
+ *
+ * Description: This function prints all the letters from 
+ * 'a' to 'z' in order, using the function putchar.
+ */
 
 void print_alphabet(void)
 
