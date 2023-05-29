@@ -2,14 +2,12 @@
 /**
  * main - Entry point
  *
+ * print_alphabet - Prints alphabet followed by a new line
  *
- * Return: void (Success)
- */
-/**
- * print_alphabet - prints alphabet followed by a new line
- *
- * Description: This function prints all the letters from 
+ * Description: This function prints all the letters from
  * 'a' to 'z' in order, using the function putchar.
+ *
+ * Return: (void)
  */
 
 void print_alphabet(void)
