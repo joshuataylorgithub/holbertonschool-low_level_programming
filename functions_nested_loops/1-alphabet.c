@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - Entry point
- *
+ * @a: character type
  * print_alphabet(void) - Prints alphabet followed by a new line
  *
  *
