@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -11,7 +12,6 @@
 int _islower(int c)
 
 {
-	int c = 'a';
 
 	if (c >= 'a' && c <= 'z')
 {	
