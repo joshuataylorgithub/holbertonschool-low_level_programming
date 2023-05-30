@@ -4,7 +4,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_sign - checks for alphabet characters
+ * print_sign - checks for +, -, or '0' (positve, negative, or zero)
  *
  * @n: int n is the name of variable in function
  *
@@ -16,21 +16,21 @@ int print_sign(int n)
 
 {
 
-	if (n > 0)
+	if (n > '0')
 {
-	printf("+");
+	putchar("+");
 }
 	return (1);
 
-	else if (n == 0)
+	else if (n == '0')
 {	
-	printf(0);
+	putchar(0);
 }
 	return (0);
 
-	else if (n < 0)
+	else if (n < '0')
 {
-	printf("-");
+	putchar("-");
 }
 	return (-1);
 
