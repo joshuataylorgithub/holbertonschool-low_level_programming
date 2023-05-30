@@ -2,8 +2,6 @@
 #include "main.h"
 /**
  * print_alphabet - prints alphabet
- * @a: character type
- * print_alphabet(void) - Prints alphabet followed by a new line
  *
  *
  * Return: (void)
