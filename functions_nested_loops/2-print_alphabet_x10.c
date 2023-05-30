@@ -1,8 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_alphabet_x10 - prints alphabet ten times
  *
- * print_alphabet(void) - Prints alphabet followed by a new line
  *
  *
  * Return: (void)
