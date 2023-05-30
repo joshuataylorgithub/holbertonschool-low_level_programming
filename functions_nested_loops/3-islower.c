@@ -23,3 +23,19 @@ int _islower(int c)
 	return (0);
 }
 }
+
+int main(void)
+{
+	char ch = 'g';
+	int result = _islower(ch);
+
+	if (result)
+{
+	printf("%c is a lowercase letter.\n", ch);
+}
+	else
+{
+	printf("%c is an uppercase letter", ch);
+}
+	return (0);
+}
