@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
+#include <ctype.h>
 /**
  * main - Entry point
  *
