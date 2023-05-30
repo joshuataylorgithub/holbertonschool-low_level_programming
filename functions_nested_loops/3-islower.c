@@ -4,7 +4,9 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * main - Entry point
+ * _islower - checks for lowercase alphabet characters
+ *
+ * @c: int c is the name of variable in function
  *
  * Return: Always 0 (Success)
  */
@@ -15,8 +17,8 @@ int _islower(int c)
 {
 
 	if (c >= 'a' && c <= 'z')
-{	
-	return 1;
+{
+	return (1);
 }
 	else
 {
