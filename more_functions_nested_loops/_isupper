@@ -1,0 +1,17 @@
+#include <unistd.h>
+
+/**
+ * _isupper - returns isupper
+ * @c: The character to print
+ *
+ * Return: 0
+ *
+ **/
+
+int _isupper(char c);
+
+int _isupper(char c)
+
+{
+	return c >= 'A' && c <= 'A';
+}
