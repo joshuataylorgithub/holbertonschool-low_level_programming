@@ -6,7 +6,8 @@
  * _isupper - checks for uppercase characters
  *
  * @c: int c is the variable in the function
- *
+ * 
+ * Return: (0).
  */
 
 int _isupper(int c)
