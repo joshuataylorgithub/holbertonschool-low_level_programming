@@ -6,7 +6,7 @@
 /**
  * _abs - computes absolute value of an integer
  *
- * @c: int c is the name of variable in function
+ * @num: num is the name of int in function
  *
  * Return: Always 0 (Success)
  */
