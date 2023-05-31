@@ -6,7 +6,7 @@
 /**
  * print_last_digit - prints last digit of a number
  *
- *
+ * @n: is integer being processed
  * @LD: is last digit
  * Return: Always 0 (Success)
  */
@@ -16,6 +16,7 @@ int print_last_digit(int n)
 {
 	int LD;
 	LD = n % 10;
+
 
 	if (n)
 {
