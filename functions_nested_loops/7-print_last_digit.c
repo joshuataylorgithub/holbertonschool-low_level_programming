@@ -7,7 +7,7 @@
  * print_last_digit - prints last digit of a number
  *
  * @n: is integer being processed
- * @LD: is last digit
+ *
  * Return: Always 0 (Success)
  */
 
