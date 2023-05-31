@@ -18,6 +18,7 @@ int print_last_digit(int n)
 	LD = n % 10;
 
 
+
 	if (n)
 {
 	return (LD);
