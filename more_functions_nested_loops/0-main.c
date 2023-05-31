@@ -11,13 +11,10 @@ int main(void)
 
 {
 	char c;
-	c = 'A';
-{	
+
+	for (c >= 'A'; c <= 'Z'; c++)
+
 	printf("%c: %d\n", c, _isupper(c));
-}
-	c = 'a';
-{
-	printf("%c: %d\n", c, isupper(c));
-}
+
 	return (0);
 }
