@@ -6,18 +6,17 @@
 /**
  * jack_bauer - prints a 24 hour clock
  *
- * @hour: is hours in day
- * @minute: is minutes in hour
+ *
  * Return: Always 0 (Success)
  */
 
 
 void jack_bauer(void)
 {
-	int hour, minute; 
+	int hour, minute;
 
 	for (hour = 0; hour <= 23; hour++)
-		for (minute = 0; minute <= 59; minute++)
+	for (minute = 0; minute <= 59; minute++)
 {
 	printf("%02d:%02d\n", hour, minute);
 }
