@@ -4,16 +4,15 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_sign - checks for +, -, or '0' (positve, negative, or zero)
+ * print_sign - checks for +, -, or 0
  *
- * @n: int n is the name of variable in function
+ * @n: int c is the name of variable in function
  *
  * Return: Always 0 (Success)
  */
 
 
 int print_sign(int n)
-
 {
 
 	if (n > 0)
@@ -22,15 +21,14 @@ int print_sign(int n)
 	return (1);
 }
 	else if (n == 0)
-{	
+{
 	putchar('0');
 	return (0);
 }
-	else if (n < 0)
+	else
 {
 	putchar('-');
 	return (-1);
 }
-	return (0);
 }
 
