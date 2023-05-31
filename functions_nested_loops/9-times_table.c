@@ -20,7 +20,7 @@ void times_table(void)
 	for (j = 0; j <= 10; j++)
 {
 	result = i * j;
-	printf("%-3d, ", result);
+	printf("%-3d,", result);
 }
 	printf("\n");
 }
