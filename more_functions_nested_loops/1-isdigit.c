@@ -15,7 +15,7 @@ int _isdigit(int c)
 {
 
 
-	for (c = 0; c < 0; c++)
+	for (c = 0; c > 0; c++)
 {
 	return (1);
 }
