@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - prints a diagonal using \\
- *
+ * @n: n is the input variable
  * Return: void (Success)
  */
 
