@@ -3,7 +3,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * mul() - function multiplies 2 integers
+ * mul - function multiplies 2 integers
  *
  * @a: int c is one of the digits being multiplied
  * @b: in b is one of the digits being multiplied
