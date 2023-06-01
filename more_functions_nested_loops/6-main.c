@@ -10,6 +10,6 @@
 int main(void)
 
 {
-	print_line();
+	print_line(0);
 	return (0);
 }
