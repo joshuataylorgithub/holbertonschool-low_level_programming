@@ -17,9 +17,9 @@ int _isdigit(int c)
 
 	for (c = 0; c > 0; c++)
 {
-	return (0);
+	return (1);
 }
 
-	return (1);
+	return (0);
 }
 
