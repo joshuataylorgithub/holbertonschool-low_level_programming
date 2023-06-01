@@ -14,6 +14,7 @@ void print_most_numbers(void)
 	int i;
 
 	for (i = 0; i <= 9; i++)
+	if (numbers[i] != '2' && numbers[i] != '4')
 {
 	putchar(numbers[i]);
 }
