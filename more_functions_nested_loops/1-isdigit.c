@@ -1,6 +1,5 @@
-#include <stdlib.h>
+
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 #include <ctype.h>
 /**
@@ -20,10 +19,8 @@ int _isdigit(int c)
 {
 	return (1);
 }
-	else if (c !>= 0 && c !<= 0)
-{
+	else
 	return (0);
-}
 
 }
 
