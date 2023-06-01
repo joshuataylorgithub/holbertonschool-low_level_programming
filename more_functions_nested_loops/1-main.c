@@ -13,9 +13,10 @@ int main(void)
 {
 	char c;
 	
-	c = '0';
+	for (c = 32; c < 127; c++)
+	if (c > '0' || c < '9')
+{
 	printf("%c: %d\n", c, _isdigit(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isdigit);
+}
 	return (0);
 }
