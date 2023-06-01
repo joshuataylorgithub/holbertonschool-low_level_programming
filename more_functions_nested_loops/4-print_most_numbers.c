@@ -10,12 +10,12 @@
 
 void print_most_numbers(void)
 {
-	int ascii_numbers[] = {48, 49, 51, 53, 54, 55, 56, 57};
+	char numbers[] = {"01356789"};
 	int i;
 
 	for (i = 0; i <= 9; i++)
 {
-	putchar(ascii_numbers[i]);
+	putchar(numbers[i]);
 }
 	putchar('\n');
 
