@@ -10,8 +10,13 @@
 
 void print_most_numbers(void)
 {
+	int i;
+	for(i = 0; i <= 9; i++)
 {
-	putchar("01356789");
+	if (i != '2' && i != '4')
+{
+	putchar('0' + i);
+}
 }
 	putchar('\n');
 
