@@ -3,7 +3,7 @@
 /**
  * print_rev - write a function that prints a string in reverse
  *
- *
+ * @s: string to be printed
  *
  * Return: void
  **/
@@ -16,10 +16,10 @@ void print_rev(char *s)
 	int i;
 
 	while (s[length] != '\0')
-{	
+{
 	length++;
 }
-	
+
 	i = length -1;
 
 	while (i >= 0)
