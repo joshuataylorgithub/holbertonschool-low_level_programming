@@ -12,9 +12,10 @@ void rev_string(char *s);
 
 int main(void)
 {
-	char *str;
+	char s[10] = "My school";
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	rev_string(str);
+	printf("%s\n", s);
+	rev_string(s);
+	printf("%s\n", s);
 	return (0);
 }
