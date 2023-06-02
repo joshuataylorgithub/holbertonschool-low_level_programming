@@ -3,6 +3,8 @@
 /**
  * swap_int - function swaps the value of two integers
  *
+ * @a: int to be swapped
+ * @b: int to be swapped
  *
  * Return: (int *a, int *b)
  *
