@@ -1,5 +1,8 @@
 #include <unistd.h>
 #include "main.h"
+
+int _strlen(char *);
+
 /**
  * main - checks the code
  
