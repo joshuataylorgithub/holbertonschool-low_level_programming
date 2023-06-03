@@ -12,10 +12,10 @@ void rev_string(char *s);
 
 int main(void)
 {
-	char s[10] = "My school";
+	char str[] = "My school";
 
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
+	printf("%s\n", str);
+	rev_string(str);
+	printf("%s\n", str);
 	return (0);
 }
