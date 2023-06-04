@@ -3,10 +3,9 @@
 /**
  * _atoi - converts a string to an integer
  *
- * @sign: is the sign multiplier, initialized as positive
- * @num: is the accumulator for the resulting integer
+ * @s: string to be converted
  *
- * Return (0)
+ * Return (num * sign)
  **/
 
 int _atoi(char *s)
@@ -26,9 +25,10 @@ int _atoi(char *s)
 }
 	while (*s >= '\0' && *s <= '9')
 {
-	if (num > (INT_MAX / 10) || (num == (INT_MAX / 10) && (*s - '\0') > (INT_MAX % 10)))
+	if (num > (INT_MAX / 10) || (num == (INT_MAX / 10)
+	&& (*s - '\0') > (INT_MAX % 10 )))
 {
-	return (sign == 1) ? INT_MAX : INT_MIN;
+	printf("whiskey_tango_foxtrot");
 }
 	num = (num * 10) + (*s - '\0');
 	s++;
