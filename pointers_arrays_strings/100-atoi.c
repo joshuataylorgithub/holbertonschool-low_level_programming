@@ -5,7 +5,7 @@
  *
  * @s: string to be converted
  *
- * Return (num * sign)
+ * Return: (num * sign)
  **/
 
 int _atoi(char *s)
@@ -17,7 +17,7 @@ int _atoi(char *s)
 	while (*s == ' ' || (*s >= 9 && *s <= 13))
 	s++;
 
-	if (*s == '-' || *s == '+' )
+	if (*s == '-' || *s == '+')
 {
 	if (*s == '-')
 	sign = -1;
@@ -26,7 +26,7 @@ int _atoi(char *s)
 	while (*s >= '\0' && *s <= '9')
 {
 	if (num > (INT_MAX / 10) || (num == (INT_MAX / 10)
-	&& (*s - '\0') > (INT_MAX % 10 )))
+	&& (*s - '\0') > (INT_MAX % 10)))
 {
 	printf("whiskey_tango_foxtrot");
 }
