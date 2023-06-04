@@ -15,7 +15,7 @@ void puts_half(char *str)
 
 	if (str == NULL)
 {
-	return;
+	printf("null");
 }
 	if (length % 2 == 0)
 {
