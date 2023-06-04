@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * main - checks the code
- *
  * _strcpy - copies char *src to char *dest
- * 
+ *
  * @src: source to be copied
- * @dest: destination of copy 
+ * @dest: destination of copy
  *
  *
  * Return: (dest)
