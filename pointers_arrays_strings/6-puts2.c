@@ -19,7 +19,7 @@ void puts2(char *str)
 
 	if (str == NULL)
 {
-	return;
+	printf("null");
 }
 	while (str[i] != '\0')
 {
