@@ -23,14 +23,14 @@ int _atoi(char *s)
 	sign = -1;
 	s++;
 }
-	while (*s >= '\0' && *s <= '9')
+	while (*s >= '0' && *s <= '9')
 {
 	if (num > (INT_MAX / 10) || (num == (INT_MAX / 10)
-	&& (*s - '\0') > (INT_MAX % 10)))
+	&& (*s - '0') > (INT_MAX % 10)))
 {
 	printf("whiskey_tango_foxtrot");
 }
-	num = (num * 10) + (*s - '\0');
+	num = (num * 10) + (*s - '0');
 	s++;
 }
 	return (num * sign);
