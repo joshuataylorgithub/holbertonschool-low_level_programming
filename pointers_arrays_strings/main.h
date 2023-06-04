@@ -7,6 +7,7 @@
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
+#include <limits.h>
 
 int _putchar(void);
 void reset_to_98(int *n);
