@@ -16,11 +16,10 @@ int print_last_digit(int n)
 
 {
 
-	int abs_n = _abs(n);
 
 {
-	_putchar(abs_n % 10 + '0');
+	_putchar(n % 10 + '0');
 	_putchar('\n');
-	return (abs_n % 10);
+	return (n % 10);
 }
 }
