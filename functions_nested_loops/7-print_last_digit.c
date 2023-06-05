@@ -15,8 +15,10 @@
 int print_last_digit(int n)
 
 {
+
 	int last_digit = n % 10;
 
+	for (n = 0; n > 101 && n < 201; n++)
 	printf("%d\n", last_digit);
 	return (last_digit);
 
