@@ -21,6 +21,7 @@ char *generate_password()
 	srand(time(NULL));
 
 	int i;
+	int index;
 	for (i = 0; i < PASSWORD_LENGTH; i++)
 {
 	int index = rand() % (sizeof(charset) - 1);
