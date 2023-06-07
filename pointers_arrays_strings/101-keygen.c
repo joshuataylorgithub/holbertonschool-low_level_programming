@@ -26,6 +26,7 @@ char *generate_password()
 	password[i] = charset[index];
 }
 	password[PASSWORD_LENGTH] = '\0';
+	
 	return (password);
 }
 
