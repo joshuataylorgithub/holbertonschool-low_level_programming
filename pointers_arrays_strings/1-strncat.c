@@ -5,6 +5,7 @@
  *
  * @src: src string
  * @dest: dest string
+ * @n: string limit
  *
  * Return: (dest)
  **/
