@@ -1,6 +1,5 @@
 #include "main.h"
 
-char *_strncat(char *, char *, int);
 /**
  * main - checks the code
  *
