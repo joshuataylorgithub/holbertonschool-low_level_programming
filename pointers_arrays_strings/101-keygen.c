@@ -13,6 +13,8 @@
 
 char *generate_password()
 
+	int i;
+	int index;
 {
 	char *password = malloc((PASSWORD_LENGTH + 1) * sizeof(char));
 
@@ -20,7 +22,7 @@ char *generate_password()
 	
 	srand(time(NULL));
 
-	int i, index;
+
 	for (i = 0; i < PASSWORD_LENGTH; i++)
 {
 	int index = rand() % (sizeof(charset) - 1);

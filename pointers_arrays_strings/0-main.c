@@ -1,25 +1,26 @@
-#include <unistd.h>
 #include "main.h"
 
-void reset_to_98(int *n);
-
+char *_strcat(char *dest, char *src);
 /**
- * main - check the code
+ * main - checks the code
  *
  *
  *
- * Return: 0
- *
+ * Return (0)
  **/
-
 
 int main(void)
 {
-	int n;
-	
-	n = 402;
-	printf("%d\n", n);
-	reset_to_98(&n);
-	printf("%d\n", n);
+	char s1[98] = "Hello ";
+	char s2[] = "World!";
+	char *ptr;
+
+	printf("%s\n", s1);
+	printf("%s", s2);
+	ptr = _strcat(s1, s2);
+	printf("%s", s1);
+	printf("%s", s2);
+	printf("%s", ptr);
 	return (0);
+
 }
