@@ -9,7 +9,7 @@
  * Return: (dest)
  **/
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *, char *, int)
 {
 
 	if (*dest == '\0' && *src == '\0')
