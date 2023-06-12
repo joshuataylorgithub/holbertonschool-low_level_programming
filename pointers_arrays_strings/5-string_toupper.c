@@ -20,6 +20,7 @@ char *string_toupper(char *str)
 }
 	i++;
 }
+	str[i] = '\0';
 	return (str);
 
 }
