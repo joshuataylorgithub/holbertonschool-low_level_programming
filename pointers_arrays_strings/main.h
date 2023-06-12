@@ -27,7 +27,7 @@ char *_strncpy(char *dest, const char *src, size_t n);
 int _strcmp(const char *s1, const char *s2);
 void reverse_array(int *a, int n);
 void print_array(int *a, int n);
-
+char *string_toupper(char *str);
 
 
 

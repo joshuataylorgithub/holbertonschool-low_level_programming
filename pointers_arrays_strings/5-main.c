@@ -1,21 +1,19 @@
 #include "main.h"
-
-void rev_string(char *s);
-
 /**
  * main - checks the code
  *
  *
  *
- * Return (0)
+ * Return: (0)
  **/
 
 int main(void)
 {
-	char str[] = "My school";
+	char str[] = "Look up!\n";
+	char *ptr;
 
-	printf("%s\n", str);
-	rev_string(str);
-	printf("%s\n", str);
+	ptr = string_toupper(str);
+	printf("%s", ptr);
+	printf("%s", str);
 	return (0);
 }
