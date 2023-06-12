@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * reverse_array - reverses the array
- *
- * @i: array assignment
+ * @a: pointer to an array of integers
+ * @n: size of array
+ * @i: loop counter
  * @temp: stores array for reversal
  *
  * Return: (void)
