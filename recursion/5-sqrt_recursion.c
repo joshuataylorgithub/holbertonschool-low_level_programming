@@ -28,8 +28,17 @@ int _sqrt_helper(int n, int start, int end)
 	return (_sqrt_helper(n, start, mid - 1));
 	}
 	else
+        {
+	int result = _sqrt_helper(n, mid + 1, end);
+	
+	if (result == -1)
 	{
-	return (_sqrt_helper(n, mid + 1, end));
+	return (mid);
+	}
+	else
+	{
+	return (result);
+	}
 	}
 }
 
