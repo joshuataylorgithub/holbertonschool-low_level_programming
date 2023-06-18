@@ -3,7 +3,8 @@
 /**
  * _pow_recursion - returns the power of 'x' raised to the power of 'y'
  *
- *
+ * @x: base for exponential equation
+ * @y: exponential power to be applied to base
  *
  * Return: the power of 'x' raised to the power of 'y'
  */
