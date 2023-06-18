@@ -6,7 +6,7 @@
  * @n: variable being calculated for square root
  * @start: starting range of square root search index (0)
  * @end: end range of square root search index (0 or none)
- *
+ * @_sqrt_helper: calculates the square root with binary
  * Return: (square root of a number)
  */
 
