@@ -3,7 +3,8 @@
 /**
  * _sqrt_helper - helper function calculates the square root using binary
  * @n: the number for which the binary search is calculated
- *
+ * @start: beginning of search index
+ * @end: end of search index
  * Return: (square root of a number if found, -1 if otherwise)
  */
 
@@ -35,11 +36,9 @@ int _sqrt_helper(int n, int start, int end)
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: the variable being calculated for square root
- * @start: the starting range of the square root search index (0)
- * @end: the end range of the square root search index (n or none)
  * Return: square root of a number
  */
-	int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 	{
