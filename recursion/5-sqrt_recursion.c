@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _sqrt_helper - recursive helper function to calculate the square root using binary
- * @param n: the number for which the binary search is calculated
- * @param start: the beginning value of the binary search
- * @param end: the ending value of the binary search
+ * _sqrt_helper - helper function calculates the square root using binary
+ * @n: the number for which the binary search is calculated
+ * @start: the beginning value of the binary search
+ * @end: the ending value of the binary search
  *
  * Return: (square root of a number if found, -1 if otherwise)
  */
