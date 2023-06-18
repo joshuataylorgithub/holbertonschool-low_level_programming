@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - verifier le code
+ * main - checks the code
  *
  *
  *
  * Return: (0)
  */
 
-int main(void)
+int main()
 
 {
 	int base = 2;
