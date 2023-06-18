@@ -3,7 +3,9 @@
 /**
  * _sqrt_recursion - returns the natural square root of a number
  *
- *
+ * @n: variable being calculated for square root
+ * @start: starting range of square root search index (0)
+ * @end: end range of square root search index (0 or none)
  *
  * Return: (square root of a number)
  */
@@ -13,7 +15,7 @@ int _sqrt_helper(int n, int start, int end)
 {
 	int mid = (start + end) / 2;
 	int square = mid * mid;
-	
+
 	if (start > end)
 	{
 	return (-1);
