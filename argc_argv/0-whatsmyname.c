@@ -3,7 +3,7 @@
 /**
  * main - Write a program that prints its name, followed by a new line.
  *
- * @arcg: argument count
+ * @argc: argument count
  * @argv: arguments
  *
  * Return: (0)
