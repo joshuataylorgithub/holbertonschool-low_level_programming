@@ -5,7 +5,7 @@
  * @argc: argument count
  * @argv: argument variable
  *
- * Return (0) or (1) if error
+ * Return: (0)
  */
 
 int main(int argc, char *argv[])
