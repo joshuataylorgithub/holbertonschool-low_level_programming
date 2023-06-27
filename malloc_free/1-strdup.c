@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strdup - returns a pointer to a string which is a copy of a string
- *
+ * @str: original string 
  * Return: (0)
  */
 
