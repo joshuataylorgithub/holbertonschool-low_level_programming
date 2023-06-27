@@ -2,7 +2,8 @@
 /**
  * create_array - write a function that creates an array of chars,
  * and initializes it with a specific char
- *
+ * @size: number of elements in the array to be dynamically allocated
+ * @c: represents the character used to initialize each element of the array
  * Return: 0
  */
 
