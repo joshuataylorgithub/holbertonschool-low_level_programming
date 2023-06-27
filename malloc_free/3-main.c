@@ -41,6 +41,7 @@ void print_grid(int **grid, int width, int height)
 int main(void)
 {
 	int **grid;
+	int i;
 	
 	grid = alloc_grid(6, 4);
 	if (grid == NULL)
@@ -54,5 +55,11 @@ int main(void)
 	grid[3][4] = 402;
 	print_grid(grid, 6, 4);
 
+
+	for (i = 0; i < 4; i++)
+	{
+	free(grid[i]);
+	}
+	free(grid);
 	return (0);
 }
