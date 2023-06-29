@@ -3,7 +3,7 @@
 
 /**
  * malloc_checked - Write a function that allocates memory using malloc.
- *
+ * @b: value to allocate to memory
  * Return: (ptr)
  */
 
@@ -19,13 +19,13 @@ void *malloc_checked(unsigned int b)
 	if (allocation_failed)
 	{
 	fprintf(stderr, "Memory allocation failed.\n");
-	exit (98);
+	exit(98);
 	}
 
 	if (ptr == NULL)
 	{
 	fprintf(stderr, "Memory allocation failed.\n");
-	exit (98);
+	exit(98);
 	}
 	return (ptr);
 }
