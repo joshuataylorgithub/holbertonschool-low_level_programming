@@ -2,7 +2,8 @@
 /**
  * _calloc - Write a function that allocates memory for an array, using malloc
  *
- *
+ * @nmemb: number of members(elements) you want to allocate for in the array
+ * @size: size of each element in the array measured in bytes
  *
  * Return: (ptr)
  */
