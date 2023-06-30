@@ -3,7 +3,8 @@
  * array_range - Write a function that creates an array of integers.
  *
  *
- *
+ * @min: the smallest element of the array (0)
+ * @max: the greatest element of the array
  *
  *
  * Return: (0)
