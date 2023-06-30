@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * main - checks the code
+ * @s1: string to concatenate
+ * @s2: string to concatenate
  *
- *
+ * Return: (0)
  */
 
 int main(void)
