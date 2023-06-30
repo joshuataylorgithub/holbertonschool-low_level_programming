@@ -18,6 +18,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	size_t result_len = s1_len + n + 1;
 
 	char *result = (char *)malloc(result_len * sizeof(char));
+
+
 	if (s1 == NULL)
 
 
