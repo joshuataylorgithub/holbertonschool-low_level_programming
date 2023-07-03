@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include "dog.h"
-#include "main.h"
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
 /*
  * main - checks the code
  *
@@ -9,11 +11,12 @@
 
 int main(void)
 {
-	struct dog my_dog;
 
-	my_dog.name = "Poppy";
-	my_dog.age = 3.5;
-	my_dog.owner = "Bob";
-	printf("My name is %s, and I am %1.f :) - Woof!\n", my_dog.name, my_dog.age);
+	struct dog my_dog;
+	init_dog(&my_dog, "Poppy", 3.5, "Bob");
+
+	printf("Name: %s\n", my_dog.name);
+	printf("Age: %.2f\n", my_dog.age);
+	printf("Owner: %s\n", my_dog.owner);
 	return (0);
 }
