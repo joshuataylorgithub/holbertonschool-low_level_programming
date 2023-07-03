@@ -4,8 +4,7 @@
 
 
 /**
- * struct - defines a type
- * @dog: name of structure
+ * @typedef struct dog: name of typedef
  * @owner: name of owner
  * @age: age of dog
  * @name: name of dog
