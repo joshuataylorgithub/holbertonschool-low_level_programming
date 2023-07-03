@@ -4,7 +4,7 @@
 
 
 /**
- * @typedef struct dog: name of typedef
+ * struct dog - typedef representing a dog
  * @owner: name of owner
  * @age: age of dog
  * @name: name of dog
