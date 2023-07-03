@@ -1,3 +1,4 @@
+#include "struct_dog.h"
 #include "dog.h"
 #include <stdio.h>
 

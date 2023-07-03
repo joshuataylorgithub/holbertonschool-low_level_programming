@@ -1,8 +1,5 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "dog.h"
-
-void init_dog(struct dog *d, char *name, float age, char *owner);
-
 /*
  * main - checks the code
  *
@@ -11,12 +8,10 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 int main(void)
 {
-
 	struct dog my_dog;
-	init_dog(&my_dog, "Poppy", 3.5, "Bob");
 
-	printf("Name: %s\n", my_dog.name);
-	printf("Age: %.2f\n", my_dog.age);
-	printf("Owner: %s\n", my_dog.owner);
+	init_dog(&my_dog, "Ghost," 4.75, "Jon Snow");
+	printf("My name is %s, I am %.2f, and my owner is %s\n", my_dog.age, my
+	_dog.owner);
 	return (0);
 }
