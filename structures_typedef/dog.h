@@ -5,7 +5,7 @@
 
 /**
  * struct - defines a type
- * @struct dog: name of structure
+ * @dog: name of structure
  * @owner: name of owner
  * @age: age of dog
  * @name: name of dog
