@@ -1,21 +1,16 @@
 #ifndef DOG_H
 #define DOG_H
-#include <stdio.h>
-
+#include "dog_struct.h"
 
 /**
- * struct dog - typedef representing a dog
+ * init_dog - initializes the prototype
  * @owner: name of owner
  * @age: age of dog
  * @name: name of dog
  * Return: none
  */
 
-typedef struct dog
-{
-	char *owner;
-	float age;
-	char *name;
-} dog_t;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
 
 #endif
