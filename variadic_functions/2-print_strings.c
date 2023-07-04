@@ -4,11 +4,14 @@
 
 /**
  * print_strings - a function that prints strings followed by a new line
- * @seperator: the string(s) to be printed
+ * @separator: the string(s) to be printed
  * @n: number of arguments in the function
  */
 
-void print_strings(const char *seperator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...);
+
+
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i;
@@ -25,8 +28,8 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 	else
 	printf("%s", str);
 
-	if (seperator != NULL && i < n - 1 && str != NULL && va_arg(args, const char*) != NULL)
-	printf("%s", seperator);
+	if (separator != NULL && i < n - 1 && str != NULL && va_arg(args, const char*) != NULL)
+	printf("%s", separator);
 	}
 	va_end(args);
 	printf("\n");
