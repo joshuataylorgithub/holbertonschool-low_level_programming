@@ -25,7 +25,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 	else
 	printf("%s", str);
 
-	if (seperator == NULL && i < n - 1)
+	if (seperator != NULL && i < n - 1 && str != NULL && va_arg(args, const char*) != NULL)
 	printf("%s", seperator);
 	}
 	va_end(args);
