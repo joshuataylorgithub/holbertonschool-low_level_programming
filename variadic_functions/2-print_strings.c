@@ -8,8 +8,6 @@
  * @n: number of arguments in the function
  */
 
-void print_strings(const char *separator, const unsigned int n, ...);
-
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -28,8 +26,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	else
 	printf("%s", str);
 
-	if (separator != NULL && i < n - 1 && str != NULL && va_arg(args, const char*) != NULL)
+	if (separator != NULL && i < n - 1 && str != NULL)
+	{
+	const char* next_str = va_arg(args, const char *);
+	if (next_str != NULL)
 	printf("%s", separator);
+	}
 	}
 	va_end(args);
 	printf("\n");
