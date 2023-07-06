@@ -1,6 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
-/* struct representing a dog with name, age, and owner */
+/* struct dog - representing a dog with name, age, and owner */
 
 	struct dog
 {
