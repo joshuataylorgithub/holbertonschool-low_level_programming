@@ -2,6 +2,8 @@
 
 /**
  * print_name - function that prints a name
+ * @name: name to input
+ * @f: function name
  * Returns: (void)
  */
 
