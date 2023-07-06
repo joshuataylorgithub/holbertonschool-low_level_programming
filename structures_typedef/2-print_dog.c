@@ -4,9 +4,9 @@
 /**
  * print_dog - prints the content of a struct_dog
  * @d: pointer to the struct_dog to point
- * struct_dog - dog information
+ * @struct_dog - dog information
  *
- * /
+ */
 
 void print_dog(struct dog *d)
 {
