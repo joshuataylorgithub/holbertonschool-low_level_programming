@@ -2,8 +2,8 @@
 /**
  * _strspn - gets the length of the prefix substring
  *
- * @i: counts iterations for s[] loop
- * @j: counts iterations for accept[] loop
+ * @s: 
+ * @accept:
  *
  * Return: (count)
  **/
