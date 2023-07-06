@@ -7,7 +7,7 @@
  * @b: constant to fill the memory with
  * @n: the number of bytes to fill
  *
- * Return (0)
+ * Return: (s)
  **/
 
 char *_memset(char *s, char b, unsigned int n)
