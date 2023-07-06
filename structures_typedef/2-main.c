@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "dog_struct.h"
-
+#include "dog.h"
 /*
  * main - checks the code
  *
