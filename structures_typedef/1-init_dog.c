@@ -2,7 +2,10 @@
 #include "dog.h"
 /**
  * init_dog - initializes a variable of type struct dog
- *
+ * @owner: name of dog's owner
+ * @age: age of dog
+ * @name: name of dog
+ * @d: represents an instance of the function
  * Return: (void)
  */
 
